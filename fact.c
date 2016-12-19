@@ -2,7 +2,7 @@
 int main()
 {
     int n, i;
-   int fact=1;
+   unsigned long long fact=1;
     scanf("%d",&n);
     if (n>0)
        {
