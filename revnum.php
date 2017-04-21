@@ -1,3 +1,3 @@
 <?php
-echo strrev("12345678910");
+echo strrev("12345678901");
 ?>
