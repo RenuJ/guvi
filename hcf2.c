@@ -12,5 +12,5 @@ hcf=i;
 }
 }
 printf("hcf of %d and %d=%d\n",n1,n2,hcf);
-treturn 0;
+return 0;
 }
