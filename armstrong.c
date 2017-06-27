@@ -1,19 +1,18 @@
 #include<stdio.h>
 int main()
 {
-    int n,oN,rem,r=0;
+    int n,n1,r,ans=0;
     scanf("%d",&n);
-    oN= number;
-    while (oN!=0)
+    n1= n;
+    while (n1!=0)
     {
-        rem= oN%10;
-        r+= rem*remr*rem;
-        oN/= 10;
+        r= n1%10;
+        ans= ans+r*r*r;
+        n1= n1/10;
     }
-    if(r==n)
+    if(ans==n)
         printf("%d is an Armstrong number.",n);
     else
         printf("%d is not an Armstrong number.",n);
-
     return 0;
 }
